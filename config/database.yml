@@ -11,7 +11,7 @@ default: &default
 
 development:
   adapter: postgresql
-  database: ror-blog-app
+  database: ror_blog_app
   username: bran
   password: 78627862
   host: localhost
@@ -21,10 +21,10 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: ror-blog-app
+  database: ror_blog_app
 
 production:
   <<: *default
-  database: ror-blog-app_production
+  database: ror_blog_app_production
   username: bran
   password: 78627862

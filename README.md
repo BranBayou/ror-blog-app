@@ -1,4 +1,4 @@
-# Blog app
+# Ror blog app
 
 <a name="readme-top"></a>
 
@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# [Blog app] <a name="about-project"></a>
+# [Ror blog app] <a name="about-project"></a>
 
-**[Blog app]** The Blog app will be a classic example of a blog website. It is a functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts. It has been made by the following ER diagram.
+**[Ror blog app]** The Blog app will be a classic example of a blog website. It is a functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts. It has been made by the following ER diagram.
 
 
 ![ER diagram image](https://github.com/BranBayou/blog-app/blob/crud/app/assets/images/blog_app_erd_v1_1.png)
@@ -72,7 +72,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd `blog-app`
-- `git clone ggit@github.com:BranBayou/blog-app.git`
+- `git clone ggit@github.com:BranBayou/ror-blog-app.git`
 
 
 ### Install
@@ -123,7 +123,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](hhttps://github.com/BranBayou/blog-app/issues).
+Feel free to check the [issues page](hhttps://github.com/BranBayou/ror-blog-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
