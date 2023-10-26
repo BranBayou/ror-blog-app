@@ -71,7 +71,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- cd `blog-app`
+- cd `ror-blog-app`
 - `git clone ggit@github.com:BranBayou/ror-blog-app.git`
 
 
@@ -79,7 +79,7 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-- cd blog-app
+- cd ror-blog-app
 - bundle install
 
 ### Usage
