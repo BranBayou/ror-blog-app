@@ -13,3 +13,150 @@
  *= require_tree .
  *= require_self
  */
+
+/* Users Page */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  color: #000;
+}
+
+.user-card {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.user-card a {
+  text-decoration: none;
+}
+
+.user-card-body {
+  display: flex;
+  border: 2px solid #000;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+.user-card-body h4 {
+  font-size: 20px;
+  color: #000;
+}
+
+.profile {
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.user-post-count {
+  align-self: flex-end;
+  margin: 5px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* User datail Page */
+
+.user-bio {
+  max-width: 500px;
+  margin: 5px auto;
+  display: flex;
+  border: 2px solid #000;
+}
+
+.user-card-post-ul {
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-card-post-ul li {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  border: 2px solid #000;
+}
+
+.post-card {
+  padding: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-card .post-card-count {
+  align-self: flex-end;
+}
+
+.see-all-post-btn-container {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.user-card-post-ul .see-all-post-btn-container {
+  align-self: center;
+  padding: 5px;
+}
+
+.user-card-post-ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Posts */
+
+.all-post-card li .post-card {
+  width: 500px;
+  margin: 0 auto;
+  border: 2px solid #000;
+}
+
+.comment-card {
+  width: 500px;
+  margin: 10px auto;
+  border: 2px solid #000;
+}
+
+.all-post-card .comment-card {
+  width: 500px;
+  margin: 10px auto;
+  border: 2px solid #000;
+}
+
+.see-all-post-btn-container .see-all-post-btn {
+  border: 2px solid #000;
+  padding: 5px;
+}
+
+/* Each post */
+
+.post-card-no-click {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+}
+
+.post-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
