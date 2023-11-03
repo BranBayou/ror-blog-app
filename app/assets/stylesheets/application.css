@@ -67,7 +67,6 @@ ul {
   list-style: none;
 }
 
-
 /* User datail Page */
 
 .user-bio {
@@ -120,8 +119,8 @@ ul {
   color: #000;
 }
 
-
 /* Posts */
+
 .all-post-card li .post-card {
   width: 500px;
   margin: 0 auto;
