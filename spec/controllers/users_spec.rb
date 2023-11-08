@@ -13,7 +13,7 @@ RSpec.describe 'Users', type: :request do
     end
     it 'the response body includes correct placeholder text.' do
       get users_path
-      expect(response.body).to include('This is index page of users')
+      expect(response.body).to include('bran')
     end
   end
   describe 'GET /users/:id' do
@@ -31,7 +31,7 @@ RSpec.describe 'Users', type: :request do
     end
     it 'the response body includes correct placeholder text.' do
       get user_path(@user)
-      expect(response.body).to include('This is show user detail page')
+      expect(response.body).to include('See all posts')
     end
   end
 end

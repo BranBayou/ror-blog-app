@@ -2,7 +2,6 @@
   <% if user.photo.present? %>
     <%= image_tag user.photo, alt: "#{user.name} profile image", class: 'profile' %>
   <% else %>
-    <!-- You can provide a default image or handle the absence of a photo as you prefer -->
     <%= image_tag 'default_profile_image.png', alt: "#{user.name} profile image", class: 'profile' %>
   <% end %>
   <%= link_to user, class: 'user-card-body' do %>

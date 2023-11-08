@@ -16,7 +16,7 @@ RSpec.describe 'Posts', type: :request do
     end
     it 'the response body includes correct placeholder text.' do
       get user_posts_path(@user)
-      expect(response.body).to include('This is index page of posts')
+      expect(response.body).to include('No posts')
     end
   end
 
@@ -37,7 +37,7 @@ RSpec.describe 'Posts', type: :request do
     end
     it 'the response body includes correct placeholder text.' do
       get user_post_path(@user, @post)
-      expect(response.body).to include('This is show page of posts by a user')
+      expect(response.body).to include('Enter comment')
     end
   end
 end

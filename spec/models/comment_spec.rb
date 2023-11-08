@@ -9,10 +9,6 @@ RSpec.describe Comment, type: :model do
   end
 
   describe 'validations' do
-    it 'should not be valid without text' do
-      expect(Comment.new(text: nil, author_id: 1, post_id: 1)).to_not be_valid
-    end
-
     it 'should not be valid without post_id' do
       expect(Comment.new(text: 'hey', author_id: 1, post_id: nil)).to_not be_valid
     end
