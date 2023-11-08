@@ -46,10 +46,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Add user]**
-- **[Create post]**
-- **[Add comment]**
-- **[Like post]**
+- [x] **Setup and controllers**
+- [X] **Controllers specs**
+- [X] **Creating a data model**
+- [x] **Processing data in models**
+- [x] **Views**
+- [x] **Forms**
+- [x] **Validations, Model specs, and n+1 problems**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,13 +101,17 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## Authors <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-￼👤 **Berhanu Baye**
+👤 : **Margaret Kojo**
+
+- GitHub: [MargaretTechworld](https://github.com/MargaretTechworld)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa/)
+
+👤 **Berhanu Baye**
 - GitHub: [@BranBayou](https://github.com/BranBayou)
 - Twitter: [@bran-baye](https://twitter.com/bran_baye)
 - LinkedIn: [Berhanu Baye](https://www.linkedin.com/in/bran-baye)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +119,11 @@ To run tests, run the following command:
 
 ## Future Features <a name="future-features"></a>
 
-- [ ] **[Decode different codes]**
+- [ ] **Add Devise**
+- [ ] **Add authorization rules**
+- [ ] **Integration specs for Views**
+- [ ] **Add API endpoints**
+- [ ] **EAPI documentation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
