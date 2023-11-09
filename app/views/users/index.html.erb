@@ -1,4 +1,9 @@
-<h1 class='user-wel'>Welcome <%=@current_user.name%></h1>
+<% if user_signed_in? %> 
+ <div> Welcome <%= current_user.email %> </div> 
+  <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+<% else %>
+  <%= button_to "Sign in", new_user_session_path %> 
+<% end %>
 <div class='post-btn-container'><%= link_to "Create Post", new_post_path, class: 'common-btn' %></div>
 <ul class='user-list'>
 <% @users.each do |user|%>

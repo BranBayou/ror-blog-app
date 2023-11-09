@@ -71,6 +71,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
 end
+gem 'devise'
 gem 'rails-controller-testing'
 gem 'rake', '13.1.0'
 gem 'rubocop', '>= 1.0', '< 2.0'
