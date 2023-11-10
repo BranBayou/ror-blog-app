@@ -160,9 +160,5 @@ ul {
   justify-content: space-between;
   align-items: start;
 }
-/* Login */
-.forms{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
+/* devise */
